@@ -1,0 +1,16 @@
+{
+  "name": "nullevi03-codex-app-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Telegram-to-Codex App Server bridge modelled after nullevi03",
+  "scripts": {
+    "start": "./boot.sh",
+    "check": "node --check src/bridge.mjs && node --check test/bridge.test.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
